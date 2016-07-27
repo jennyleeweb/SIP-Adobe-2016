@@ -23,13 +23,14 @@ li{
     font-size: 18px;
 }
 #homepage {
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    margin-left: 80px;
 }
 .homepic { 
     display: inline-block;    
-    margin:70px;
+    padding-left:90px;
+    padding-right: 20px;
     width:20%;
 }
 #homepic3 {
