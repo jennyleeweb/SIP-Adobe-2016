@@ -1,14 +1,15 @@
 window.onload = function() {
-    alert('Welcome to my site (:');
+    alert('Welcome to my site');
+
+        $(".homepic").fadeToggle();
+        $(".photos").fadeIn().delay(1000).fadeOut().delay(1000).fadeIn();
+
+
+    // for (var i=0; i >0; i++) {
+        // $("#homepic1").fadeIn().delay(1000).fadeOut();
+        // $("#homepic2").fadeToggle();
+        // $("#homepic3").fadeToggle();
+    // }
+    
 }
 
-
-// $(".homepic").fadeIn("slow", "swing");
-// $(".homepic").fadeOut("slow", "swing");
-// $(".homepic").fadeToggle("slow");
-
-$('.homepic').click(function(){
-    $("#homepic1").fadeIn();
-    $("#homepic2").fadeIn("slow");
-    $("#homepic3").fadeIn(3000);
-});
